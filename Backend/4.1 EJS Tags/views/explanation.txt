@@ -1,0 +1,6 @@
+<%= age %>  ------> variable, js output
+<% console.log('test') %> ------> command js, js execute
+<%- <h1>Hello</h1> %> ------> command html, render html
+<%% %%> ------> show <% or %>
+<%# this is a comment %> ------> stop execution
+<%- include('header.ejs') %> ------> stop execution

@@ -1,0 +1,61 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+p {
+  color: red;
+}
+
+.note {
+  font-size: 20px;
+}
+
+#id-selector-demo {
+  color: green;
+}
+
+li[value="4"] {
+  color: blue;
+}
+
+* {
+  text-align: center;
+}
+
+/* 
+https://htmlcheatsheet.com/css/ 
+https://css-tricks.com/almanac/selectors/a/attribute/
+*/
+
+/* 
+Combinatories
+
+div p {
+  color: red;
+}
+means that all p elements that are descendants of a div element will be colored red.
+
+div > p {
+  color: red;
+}
+means that all p elements that are direct children of a div element will be colored red. (ALL DIRECT CHILDREN OF A DIV ELEMENT, NOT JUST THE FIRST ONE)
+
+div + p {
+  color: red;
+}
+means that all p elements that are immediately preceded by a div element will be colored red. (FIRST SIBLING P OF A DIV ELEMENT)
+
+div ~ p {
+  color: red;
+}
+means that all p elements that are preceded by a div element will be colored red. (ALL SIBLINGS P OF A DIV ELEMENT, NOT JUST THE FIRST ONE)
+
+*/
+
+
+/*Pseudo-classes
+https://www.w3schools.com/cssref/css_ref_pseudo_classes.php
+*/

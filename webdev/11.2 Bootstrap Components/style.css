@@ -1,0 +1,14 @@
+
+.navbar-brand > img {
+    margin: auto 5px;
+}
+
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+}
+
+.feature-icon > img {
+    height: 30px;
+}

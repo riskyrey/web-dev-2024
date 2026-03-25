@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            text-align: center;
+            font-weight: bold;
+        }
+        .header {
+            display: inline;
+        }
+        .content {
+            display: inline-block;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            width: 100%;
+            clear: both;
+        }
+
+        .content-left, .content-right {
+            width: 50%;
+        }
+
+        .content-left {
+            float: left;
+            height: 100px;
+        }
+        .content-right {
+            float: right;
+            height: 100px;
+        }
+        .content-left-item {
+            height: 50%;
+        }
+        .content-right-item {
+            height: 100%;
+        }
+        header {
+            background-color: aqua;
+        }
+        aside {
+            background-color: violet;
+        }
+        nav {
+            background-color: tomato;
+        }
+        main {
+            background-color: yellow;
+        }
+        footer {
+            background-color: pink;
+            clear: both;
+            margin-top: 0px;
+        }
+        .item {
+            padding: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <header class="item">Header</header>
+        </div>
+        
+        <div class="content">
+            <div class="content-left">
+                <nav class="item content-left-item">Nav</nav>
+                <main class="item content-left-item">Main</main>
+            </div>
+            <div class="content-right">
+                <aside class="item content-right-item">Aside</aside>
+            </div>
+        </div>
+        
+        <footer class="item">Footer</footer>
+    </div>
+</body>
+</html>
